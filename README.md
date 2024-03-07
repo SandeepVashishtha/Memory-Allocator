@@ -30,12 +30,13 @@ To get started with the Memory Allocator, follow these steps:
 3. **Compile the Assembly Code**
     ```bash
     nasm -f elf src/memory_allocator.asm -o build/memory_allocator.o
+    ```
+    ```bash
     ld build/memory_allocator.o -o build/memory_allocator
 
 4. **Run the Executable**
    ```bash
    ./build/memory_allocator
-
 
 ## License
 
